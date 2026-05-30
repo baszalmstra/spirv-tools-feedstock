@@ -1,10 +1,10 @@
 {% set version = "2026.2" %}
-# Keep this in synch with https://github.com/KhronosGroup/SPIRV-Tools/blob/v2023.2/DEPS#L14
-{% set headers_version = "1.4.341.0" %}
+# Keep this in synch with https://github.com/KhronosGroup/SPIRV-Tools/blob/v2026.2/DEPS#L14
+{% set headers_version = "1.4.350.0" %}
 
 package:
   name: spirv-tools
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/v{{ version }}.tar.gz
